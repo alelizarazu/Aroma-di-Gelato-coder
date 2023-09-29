@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/*!-----------RESET-----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*!-----------Header-----------*/
+header h2 {color: rgb(8, 41, 47);}
+header{background-color: rgb(127, 255, 212);
+    width: 100%;
+    height: 15vh;}   
+h1{color: rgb(69, 142, 118);
+    font-size:50px ; 
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+header nav ul {list-style: none;}
+header nav ul li a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(69, 142, 118);
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+header nav ul li {
+    padding: 10px;
+    display: inline-block;
+    }
+
+
+
+/*!-----------MAIN-----------*/
+main{
+    background-color: rgb(69, 142, 118);
+}
+.hero h2{color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 70px;}
+.hero p {
+    font-size: 30px;
+    padding: 20px;
+}
+.hero {
+        color: aquamarine;
+        width: 100%;
+        height: 85vh;
+        text-align: center;
+        background-image:url("../img/gelato4.jpeg"); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;}
+.bienvenidos{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/icecream4.jpeg");
+    background-size: cover;
+        background-position:center;
+        background-attachment:scroll;}
+.bienvenidos h2{color: rgb(69, 142, 118);
+    font-family: 'Mulish', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 30px;}
+.bienvenidos p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.subtitle h2 {color: aquamarine;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+
+}
+.productos {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px;
+    flex-wrap: wrap;¿
+.productos h3{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    }
+.productos div img{
+    width: 300px;
+    height: 300px;
+    font-family: Verdana;
+
+    }
+h2{color: aquamarine;
+    padding: 10px;}
+
+
+
+/*!-----------FOOTER-----------*/
+footer{background-color: rgb(73, 200, 158);
+width: 100%;
+height: 20vh;}
+footer h2 {
+    color: rgb(69, 142, 118);
+    font-size:50px ; 
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+}
+footer div a img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;    
+}
+.foot { 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    }
