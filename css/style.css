@@ -18,21 +18,15 @@ h1{color: rgb(69, 142, 118);
     padding: 10px;
 }
 header nav ul {list-style: none;}
-header nav ul li a {
-    font-size: large;
-    text-decoration: none;
+.nav-item {
     color: rgb(69, 142, 118);
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     text-align: center;
-    
 }
-header nav ul li {
-    padding: 10px;
-    display: inline-block;
-    }
-
-
+header nav img{
+    height: 40px;
+    width: 40px; }
 
 /*!-----------MAIN-----------*/
 main{
@@ -40,7 +34,8 @@ main{
 }
 .hero h2{color: white;
     font-family: 'Mulish', sans-serif;
-    font-size: 70px;}
+    font-size: 70px;
+    margin: 5px;}
 .hero p {
     font-size: 30px;
     padding: 20px;
@@ -81,7 +76,7 @@ main{
     justify-content: space-between;
     align-items:center ;
     padding: 10px;
-    flex-wrap: wrap;¿
+    flex-wrap: wrap;}
 .productos h3{
     color: white;
     font-family: 'Mulish', sans-serif;
@@ -102,22 +97,22 @@ h2{color: aquamarine;
 /*!-----------FOOTER-----------*/
 footer{background-color: rgb(73, 200, 158);
 width: 100%;
-height: 20vh;}
+height: 15vh;}
 footer h2 {
     color: rgb(69, 142, 118);
     font-size:50px ; 
     font-style: italic;
     font-family: 'Mulish', sans-serif;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 footer div a img {
-    width: 40px;
-    height: 40px;
-    padding: 10px;    
+    width: 50px;
+    height: 50px;
+    padding: 5px;    
 }
 .foot { 
     display: flex;
-    justify-content: end;
-    align-items: center;
-
-    }
+    justify-content: center;
+}
