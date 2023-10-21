@@ -94,7 +94,9 @@ h2{color: aquamarine;
     .carousel-inner{
         height: 600px;
     }
-
+.content {
+    
+}
 /*!-----------FOOTER-----------*/
 footer{background-color: rgb(73, 200, 158);
 width: 100%;

@@ -1,0 +1,35 @@
+@import "./bases/variables.scss";
+@import "./bases/generales.scss";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./bases/mediaquery.scss";
+
+header {background-color: rgb(127, 255, 212);
+    width: 100%;
+    height: 15vh;
+    h1{color: rgb(69, 142, 118);
+        font-size:50px ; 
+        font-style: italic;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bolder;
+        padding: 10px;
+    }
+    h2{color: rgb(8, 41, 47);
+    }
+    nav{
+        ul{list-style: none;
+
+        }
+        img{height: 40px;
+            width: 40px; 
+
+        }
+    }
+    .nav-item{color: rgb(69, 142, 118);
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        text-align: center;}
+}
+
+

@@ -1,0 +1,23 @@
+header {
+  background-color: aquamarine;
+  width: 100%;
+  height: 15vh; }
+  header h1 {
+    color: #458e76;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    padding: 10px; }
+  header h2 {
+    color: #08292f; }
+  header nav ul {
+    list-style: none; }
+  header nav img {
+    height: 40px;
+    width: 40px; }
+  header .nav-item {
+    color: #458e76;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    text-align: center; }
